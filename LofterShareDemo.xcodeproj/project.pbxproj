@@ -1,0 +1,341 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C57C0DA119874F9C0052DF3C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57C0DA019874F9C0052DF3C /* Foundation.framework */; };
+		C57C0DA319874F9C0052DF3C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57C0DA219874F9C0052DF3C /* CoreGraphics.framework */; };
+		C57C0DA519874F9C0052DF3C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C57C0DA419874F9C0052DF3C /* UIKit.framework */; };
+		C57C0DAB19874F9C0052DF3C /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C57C0DA919874F9C0052DF3C /* InfoPlist.strings */; };
+		C57C0DAD19874F9C0052DF3C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C0DAC19874F9C0052DF3C /* main.m */; };
+		C57C0DB119874F9C0052DF3C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C0DB019874F9C0052DF3C /* AppDelegate.m */; };
+		C57C0DB319874F9C0052DF3C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C57C0DB219874F9C0052DF3C /* Images.xcassets */; };
+		C57C0DD219874FF60052DF3C /* ShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C57C0DD019874FF60052DF3C /* ShareViewController.m */; };
+		C57C0DD319874FF60052DF3C /* ShareViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C57C0DD119874FF60052DF3C /* ShareViewController.xib */; };
+		C57C0DD61987509F0052DF3C /* share_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C57C0DD41987509F0052DF3C /* share_pic.jpg */; };
+		C57C0DD91987522D0052DF3C /* share_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C57C0DD81987522D0052DF3C /* share_thumb.jpg */; };
+		C57C0DE819875FDE0052DF3C /* libLofterApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C57C0DDF19875FDE0052DF3C /* libLofterApi.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C57C0D9D19874F9C0052DF3C /* LofterShareDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LofterShareDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C57C0DA019874F9C0052DF3C /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		C57C0DA219874F9C0052DF3C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		C57C0DA419874F9C0052DF3C /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		C57C0DA819874F9C0052DF3C /* LofterShareDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LofterShareDemo-Info.plist"; sourceTree = "<group>"; };
+		C57C0DAA19874F9C0052DF3C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		C57C0DAC19874F9C0052DF3C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C57C0DAE19874F9C0052DF3C /* LofterShareDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LofterShareDemo-Prefix.pch"; sourceTree = "<group>"; };
+		C57C0DAF19874F9C0052DF3C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C57C0DB019874F9C0052DF3C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C57C0DB219874F9C0052DF3C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		C57C0DB919874F9C0052DF3C /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		C57C0DCF19874FF60052DF3C /* ShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareViewController.h; sourceTree = "<group>"; };
+		C57C0DD019874FF60052DF3C /* ShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareViewController.m; sourceTree = "<group>"; };
+		C57C0DD119874FF60052DF3C /* ShareViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ShareViewController.xib; sourceTree = "<group>"; };
+		C57C0DD41987509F0052DF3C /* share_pic.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = share_pic.jpg; sourceTree = "<group>"; };
+		C57C0DD81987522D0052DF3C /* share_thumb.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = share_thumb.jpg; sourceTree = "<group>"; };
+		C57C0DDF19875FDE0052DF3C /* libLofterApi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLofterApi.a; sourceTree = "<group>"; };
+		C57C0DE119875FDE0052DF3C /* LofterApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LofterApi.h; sourceTree = "<group>"; };
+		C57C0DE319875FDE0052DF3C /* LofterApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LofterApiObject.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C57C0D9A19874F9C0052DF3C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57C0DA319874F9C0052DF3C /* CoreGraphics.framework in Frameworks */,
+				C57C0DA519874F9C0052DF3C /* UIKit.framework in Frameworks */,
+				C57C0DE819875FDE0052DF3C /* libLofterApi.a in Frameworks */,
+				C57C0DA119874F9C0052DF3C /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C57C0D9419874F9C0052DF3C = {
+			isa = PBXGroup;
+			children = (
+				C57C0DA619874F9C0052DF3C /* LofterShareDemo */,
+				C57C0D9F19874F9C0052DF3C /* Frameworks */,
+				C57C0D9E19874F9C0052DF3C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C57C0D9E19874F9C0052DF3C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C57C0D9D19874F9C0052DF3C /* LofterShareDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C57C0D9F19874F9C0052DF3C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C57C0DA019874F9C0052DF3C /* Foundation.framework */,
+				C57C0DA219874F9C0052DF3C /* CoreGraphics.framework */,
+				C57C0DA419874F9C0052DF3C /* UIKit.framework */,
+				C57C0DB919874F9C0052DF3C /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C57C0DA619874F9C0052DF3C /* LofterShareDemo */ = {
+			isa = PBXGroup;
+			children = (
+				C57C0DAF19874F9C0052DF3C /* AppDelegate.h */,
+				C57C0DB019874F9C0052DF3C /* AppDelegate.m */,
+				C57C0DCF19874FF60052DF3C /* ShareViewController.h */,
+				C57C0DD019874FF60052DF3C /* ShareViewController.m */,
+				C57C0DD119874FF60052DF3C /* ShareViewController.xib */,
+				C57C0DD41987509F0052DF3C /* share_pic.jpg */,
+				C57C0DD81987522D0052DF3C /* share_thumb.jpg */,
+				C57C0DDA198752930052DF3C /* LofterSDK */,
+				C57C0DB219874F9C0052DF3C /* Images.xcassets */,
+				C57C0DA719874F9C0052DF3C /* Supporting Files */,
+			);
+			path = LofterShareDemo;
+			sourceTree = "<group>";
+		};
+		C57C0DA719874F9C0052DF3C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C57C0DA819874F9C0052DF3C /* LofterShareDemo-Info.plist */,
+				C57C0DA919874F9C0052DF3C /* InfoPlist.strings */,
+				C57C0DAC19874F9C0052DF3C /* main.m */,
+				C57C0DAE19874F9C0052DF3C /* LofterShareDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C57C0DDA198752930052DF3C /* LofterSDK */ = {
+			isa = PBXGroup;
+			children = (
+				C57C0DDF19875FDE0052DF3C /* libLofterApi.a */,
+				C57C0DE119875FDE0052DF3C /* LofterApi.h */,
+				C57C0DE319875FDE0052DF3C /* LofterApiObject.h */,
+			);
+			path = LofterSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C57C0D9C19874F9C0052DF3C /* LofterShareDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C57C0DC919874F9D0052DF3C /* Build configuration list for PBXNativeTarget "LofterShareDemo" */;
+			buildPhases = (
+				C57C0D9919874F9C0052DF3C /* Sources */,
+				C57C0D9A19874F9C0052DF3C /* Frameworks */,
+				C57C0D9B19874F9C0052DF3C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LofterShareDemo;
+			productName = LofterShareDemo;
+			productReference = C57C0D9D19874F9C0052DF3C /* LofterShareDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C57C0D9519874F9C0052DF3C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Netease;
+			};
+			buildConfigurationList = C57C0D9819874F9C0052DF3C /* Build configuration list for PBXProject "LofterShareDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = C57C0D9419874F9C0052DF3C;
+			productRefGroup = C57C0D9E19874F9C0052DF3C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C57C0D9C19874F9C0052DF3C /* LofterShareDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C57C0D9B19874F9C0052DF3C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57C0DAB19874F9C0052DF3C /* InfoPlist.strings in Resources */,
+				C57C0DD319874FF60052DF3C /* ShareViewController.xib in Resources */,
+				C57C0DD61987509F0052DF3C /* share_pic.jpg in Resources */,
+				C57C0DB319874F9C0052DF3C /* Images.xcassets in Resources */,
+				C57C0DD91987522D0052DF3C /* share_thumb.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C57C0D9919874F9C0052DF3C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C57C0DB119874F9C0052DF3C /* AppDelegate.m in Sources */,
+				C57C0DD219874FF60052DF3C /* ShareViewController.m in Sources */,
+				C57C0DAD19874F9C0052DF3C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C57C0DA919874F9C0052DF3C /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C57C0DAA19874F9C0052DF3C /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C57C0DC719874F9D0052DF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C57C0DC819874F9D0052DF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C57C0DCA19874F9D0052DF3C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LofterShareDemo/LofterShareDemo-Prefix.pch";
+				INFOPLIST_FILE = "LofterShareDemo/LofterShareDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LofterShareDemo/LofterSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		C57C0DCB19874F9D0052DF3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LofterShareDemo/LofterShareDemo-Prefix.pch";
+				INFOPLIST_FILE = "LofterShareDemo/LofterShareDemo-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/LofterShareDemo/LofterSDK",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C57C0D9819874F9C0052DF3C /* Build configuration list for PBXProject "LofterShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57C0DC719874F9D0052DF3C /* Debug */,
+				C57C0DC819874F9D0052DF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C57C0DC919874F9D0052DF3C /* Build configuration list for PBXNativeTarget "LofterShareDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C57C0DCA19874F9D0052DF3C /* Debug */,
+				C57C0DCB19874F9D0052DF3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C57C0D9519874F9C0052DF3C /* Project object */;
+}
