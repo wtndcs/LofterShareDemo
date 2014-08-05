@@ -62,6 +62,11 @@
 + (BOOL)openLofter;
 
 /**
+ * 当isLofterSupportApi返回NO时，调用该方法使用UIAlert提示用户下载最新版本。
+ */
++ (void)showDownloadAlertToUser;
+
+/**
  * 第三方App被Lofter客户端通过URL唤起时的调用
  *
  * 需要在 application:openURL:sourceApplication:annotation:或者application:handleOpenURL中调用。
