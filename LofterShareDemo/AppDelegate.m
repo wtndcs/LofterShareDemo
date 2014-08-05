@@ -10,6 +10,10 @@
 #import "LofterSDK/LofterApi.h"
 #import "ShareViewController.h"
 
+@interface AppDelegate () <LofterApiDelegate>
+
+@end
+
 @implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
@@ -48,6 +52,17 @@
     [LofterApi registerApp:@"shareIdentify"];
 }
 
+- (BOOL)application:(UIApplication *)application openURL:(NSURL *)url sourceApplication:(NSString *)sourceApplication annotation:(id)annotation
+{
+    [LofterApi handleOpenURL:url delegate:self];
+    return YES;
+}
+
+- (void)onReceiveResponse: (LofterBaseResp *)resp {
+    NSLog(@"%d %@", resp.errCode, resp.errStr);
+}
+     
+     
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     // Called when the application is about to terminate. Save data if appropriate. See also applicationDidEnterBackground:.
