@@ -23,6 +23,7 @@
 		C5DC9CA0199A12F800D1FCD1 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DC9C9B199A12F800D1FCD1 /* UIImage+Alpha.m */; };
 		C5DC9CA1199A12F800D1FCD1 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DC9C9D199A12F800D1FCD1 /* UIImage+Resize.m */; };
 		C5DC9CA2199A12F800D1FCD1 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DC9C9F199A12F800D1FCD1 /* UIImage+RoundedCorner.m */; };
+		C5DC9CA6199A231900D1FCD1 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5DC9CA5199A231900D1FCD1 /* StoreKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		C5DC9C9D199A12F800D1FCD1 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
 		C5DC9C9E199A12F800D1FCD1 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
 		C5DC9C9F199A12F800D1FCD1 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
+		C5DC9CA5199A231900D1FCD1 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C5DC9CA6199A231900D1FCD1 /* StoreKit.framework in Frameworks */,
 				C57C0DA319874F9C0052DF3C /* CoreGraphics.framework in Frameworks */,
 				C57C0DA519874F9C0052DF3C /* UIKit.framework in Frameworks */,
 				C57C0DE819875FDE0052DF3C /* libLofterApi.a in Frameworks */,
@@ -91,6 +94,7 @@
 		C57C0D9F19874F9C0052DF3C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				C5DC9CA5199A231900D1FCD1 /* StoreKit.framework */,
 				C57C0DA019874F9C0052DF3C /* Foundation.framework */,
 				C57C0DA219874F9C0052DF3C /* CoreGraphics.framework */,
 				C57C0DA419874F9C0052DF3C /* UIKit.framework */,
@@ -275,7 +279,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
@@ -307,7 +311,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -321,6 +325,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LofterShareDemo/LofterShareDemo-Prefix.pch";
 				INFOPLIST_FILE = "LofterShareDemo/LofterShareDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LofterShareDemo/LofterSDK",
@@ -338,6 +343,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "LofterShareDemo/LofterShareDemo-Prefix.pch";
 				INFOPLIST_FILE = "LofterShareDemo/LofterShareDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/LofterShareDemo/LofterSDK",

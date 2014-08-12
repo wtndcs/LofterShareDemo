@@ -47,20 +47,19 @@
     picker.sourceType = UIImagePickerControllerSourceTypePhotoLibrary;
     picker.allowsEditing = YES;
     picker.delegate = self;
-    [self presentModalViewController:picker animated:YES];
+    [self presentViewController:picker animated:YES completion:nil];
 }
 
 - (void)imagePickerController:(UIImagePickerController *)picker didFinishPickingMediaWithInfo:(NSDictionary *)info
 {
     self.chooseImage = [info objectForKey:UIImagePickerControllerOriginalImage];
-    [picker dismissModalViewControllerAnimated:YES];
+    [picker dismissViewControllerAnimated:YES completion:nil];
 }
 
 - (IBAction)shareToLofter:(id)sender
 {
     if (![LofterApi isLofterSupportApi]) {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Error" message:@"请下载最新版本的LOFTER" delegate:nil cancelButtonTitle:@"OK" otherButtonTitles: nil];
-        [alert show];
+        [LofterApi showDownloadAlertToUser];
         return;
     }
     if (!self.chooseImage) {

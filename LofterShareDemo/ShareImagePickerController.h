@@ -10,6 +10,4 @@
 
 @interface ShareImagePickerController : UIImagePickerController
 
-+ (void)presentImagePickerFromController:(UIViewController *)controller;
-
 @end
