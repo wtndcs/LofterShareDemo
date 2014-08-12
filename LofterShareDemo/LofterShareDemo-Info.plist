@@ -26,10 +26,10 @@
 			<key>CFBundleTypeRole</key>
 			<string>Editor</string>
 			<key>CFBundleURLName</key>
-			<string>shareIdentify</string>
+			<string>loftershareIdentify</string>
 			<key>CFBundleURLSchemes</key>
 			<array>
-				<string>shareIdentify</string>
+				<string>loftershareIdentify</string>
 			</array>
 		</dict>
 	</array>

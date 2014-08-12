@@ -48,7 +48,7 @@
 
 - (void)applicationDidBecomeActive:(UIApplication *)application
 {
-    // 注册Identify，同时在URL Type中增加Identify
+    // 注册Identify，同时在URL Type中增加Identify，需要注意的是URL Type中为lofter+shareIdentify
     [LofterApi registerApp:@"shareIdentify"];
 }
 
