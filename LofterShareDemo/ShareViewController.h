@@ -8,8 +8,13 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ShareViewController : UIViewController
+@interface ShareViewController : UIViewController<UINavigationControllerDelegate, UIImagePickerControllerDelegate>
 
+@property (nonatomic, weak) IBOutlet UITextView *contentTextView;
+@property (nonatomic, weak) IBOutlet UITextField *tag1View;
+@property (nonatomic, weak) IBOutlet UITextField *tag2View;
+
+- (IBAction)chooseImg:(id)sender;
 - (IBAction)shareToLofter:(id)sender;
 
 @end

@@ -19,6 +19,10 @@
 		C57C0DD61987509F0052DF3C /* share_pic.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C57C0DD41987509F0052DF3C /* share_pic.jpg */; };
 		C57C0DD91987522D0052DF3C /* share_thumb.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C57C0DD81987522D0052DF3C /* share_thumb.jpg */; };
 		C57C0DE819875FDE0052DF3C /* libLofterApi.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C57C0DDF19875FDE0052DF3C /* libLofterApi.a */; };
+		C5DC9C92199A0B3400D1FCD1 /* ShareImagePickerController.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DC9C91199A0B3400D1FCD1 /* ShareImagePickerController.m */; };
+		C5DC9CA0199A12F800D1FCD1 /* UIImage+Alpha.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DC9C9B199A12F800D1FCD1 /* UIImage+Alpha.m */; };
+		C5DC9CA1199A12F800D1FCD1 /* UIImage+Resize.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DC9C9D199A12F800D1FCD1 /* UIImage+Resize.m */; };
+		C5DC9CA2199A12F800D1FCD1 /* UIImage+RoundedCorner.m in Sources */ = {isa = PBXBuildFile; fileRef = C5DC9C9F199A12F800D1FCD1 /* UIImage+RoundedCorner.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +46,14 @@
 		C57C0DDF19875FDE0052DF3C /* libLofterApi.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libLofterApi.a; sourceTree = "<group>"; };
 		C57C0DE119875FDE0052DF3C /* LofterApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LofterApi.h; sourceTree = "<group>"; };
 		C57C0DE319875FDE0052DF3C /* LofterApiObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LofterApiObject.h; sourceTree = "<group>"; };
+		C5DC9C90199A0B3400D1FCD1 /* ShareImagePickerController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ShareImagePickerController.h; sourceTree = "<group>"; };
+		C5DC9C91199A0B3400D1FCD1 /* ShareImagePickerController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ShareImagePickerController.m; sourceTree = "<group>"; };
+		C5DC9C9A199A12F800D1FCD1 /* UIImage+Alpha.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Alpha.h"; sourceTree = "<group>"; };
+		C5DC9C9B199A12F800D1FCD1 /* UIImage+Alpha.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Alpha.m"; sourceTree = "<group>"; };
+		C5DC9C9C199A12F800D1FCD1 /* UIImage+Resize.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Resize.h"; sourceTree = "<group>"; };
+		C5DC9C9D199A12F800D1FCD1 /* UIImage+Resize.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Resize.m"; sourceTree = "<group>"; };
+		C5DC9C9E199A12F800D1FCD1 /* UIImage+RoundedCorner.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+RoundedCorner.h"; sourceTree = "<group>"; };
+		C5DC9C9F199A12F800D1FCD1 /* UIImage+RoundedCorner.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+RoundedCorner.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +107,9 @@
 				C57C0DCF19874FF60052DF3C /* ShareViewController.h */,
 				C57C0DD019874FF60052DF3C /* ShareViewController.m */,
 				C57C0DD119874FF60052DF3C /* ShareViewController.xib */,
+				C5DC9C90199A0B3400D1FCD1 /* ShareImagePickerController.h */,
+				C5DC9C91199A0B3400D1FCD1 /* ShareImagePickerController.m */,
+				C5DC9C99199A12F800D1FCD1 /* UIImage+Resize */,
 				C57C0DD41987509F0052DF3C /* share_pic.jpg */,
 				C57C0DD81987522D0052DF3C /* share_thumb.jpg */,
 				C57C0DDA198752930052DF3C /* LofterSDK */,
@@ -123,6 +138,19 @@
 				C57C0DE319875FDE0052DF3C /* LofterApiObject.h */,
 			);
 			path = LofterSDK;
+			sourceTree = "<group>";
+		};
+		C5DC9C99199A12F800D1FCD1 /* UIImage+Resize */ = {
+			isa = PBXGroup;
+			children = (
+				C5DC9C9A199A12F800D1FCD1 /* UIImage+Alpha.h */,
+				C5DC9C9B199A12F800D1FCD1 /* UIImage+Alpha.m */,
+				C5DC9C9C199A12F800D1FCD1 /* UIImage+Resize.h */,
+				C5DC9C9D199A12F800D1FCD1 /* UIImage+Resize.m */,
+				C5DC9C9E199A12F800D1FCD1 /* UIImage+RoundedCorner.h */,
+				C5DC9C9F199A12F800D1FCD1 /* UIImage+RoundedCorner.m */,
+			);
+			path = "UIImage+Resize";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +221,11 @@
 			files = (
 				C57C0DB119874F9C0052DF3C /* AppDelegate.m in Sources */,
 				C57C0DD219874FF60052DF3C /* ShareViewController.m in Sources */,
+				C5DC9CA2199A12F800D1FCD1 /* UIImage+RoundedCorner.m in Sources */,
 				C57C0DAD19874F9C0052DF3C /* main.m in Sources */,
+				C5DC9CA0199A12F800D1FCD1 /* UIImage+Alpha.m in Sources */,
+				C5DC9C92199A0B3400D1FCD1 /* ShareImagePickerController.m in Sources */,
+				C5DC9CA1199A12F800D1FCD1 /* UIImage+Resize.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,6 +366,7 @@
 				C57C0DCB19874F9D0052DF3C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
