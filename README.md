@@ -1,8 +1,8 @@
 LofterShareDemo
 ===============
-支持版本: iOS 6.0 + 
+支持版本: iOS 5.0 + 
 
-需要框架: StoreKit.framework
+需要框架: iOS 6以上需要加上StoreKit.framework
 
 增加URL Types: lofter + AppUUID (例如: lofterHOW+=WEWDSX )
 
